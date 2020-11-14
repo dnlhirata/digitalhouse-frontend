@@ -17,6 +17,7 @@ main {
     margin: auto;
     background-color: #383A59;
     width: 50%;
+    min-width: 200px;
     padding: 32px 48px;
     border-radius: 30px;
 }
@@ -25,7 +26,8 @@ main ul {
     list-style: none;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 
     flex-wrap: wrap;
 }
