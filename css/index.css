@@ -1,85 +1,68 @@
-header {
-    height: 400px;
+body {
+    margin: auto;
+    background: #282A36;
+    width: 85%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-nav ul {
-    display: flex;
-    margin: 16px 0;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li + li {
-    margin-left: 32px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-div.banner {
-    background-image: url("../img/jane.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 40%;
-    width: 100%;
-    height: 100%;
+header {
+    text-align: center;
+    padding: 32px 0;
+    color: #BD93F9;
 }
 
 main {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-
-    margin: 56px auto;
+    margin: auto;
+    background-color: #383A59;
+    width: 50%;
+    padding: 32px 48px;
+    border-radius: 30px;
 }
 
-main h2 {
-    margin-bottom: 16px;
-}
+main ul {
+    list-style: none;
 
-section.music-list {
-    width: 100%;
-    height: 400px;
-    margin-top: 56px;
     display: flex;
+    align-items: center;
 
     flex-wrap: wrap;
 }
 
-section.music-list div {
-    width: 50%;
-    height: 100%;
+main ul li {
+    color: #9580FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 25%;
+    padding: 16px 0;
 }
 
-section.music-list img {
-    max-width: 800px;
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+main ul li img {
+    border-radius: 30%;
+    width: 150px;
+    height: 110px;
+    margin-bottom: 12px;
 }
 
-section.music-list ol {
-    margin: auto;
+div.jane-doe-image {
+    background-image: url('../img/jane.jpg');
 }
 
-section.music-list ol li + li {
-    margin: 24px 0;
+div.netflix-image {
+    background-image: url('../img/netflix-symbol.png');
 }
 
-section.music-list ol li span {
-    color: #EFA523;
+main ul li a {
+    color: #BD93F9;
     font-weight: bold;
+    text-decoration: none;
 }
 
-footer {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 12px 0;
+main ul li a:hover {
+    text-decoration: underline;
 }
+

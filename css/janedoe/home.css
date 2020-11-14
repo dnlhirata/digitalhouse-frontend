@@ -1,0 +1,85 @@
+header {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 16px 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li + li {
+    margin-left: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.banner {
+    background-image: url("../../img/jane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 56px auto;
+}
+
+main h2 {
+    margin-bottom: 16px;
+}
+
+section.music-list {
+    width: 100%;
+    height: 400px;
+    margin-top: 56px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+section.music-list div {
+    width: 50%;
+    height: 100%;
+}
+
+section.music-list img {
+    max-width: 800px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+section.music-list ol {
+    margin: auto;
+}
+
+section.music-list ol li + li {
+    margin: 24px 0;
+}
+
+section.music-list ol li span {
+    color: #EFA523;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 12px 0;
+}
